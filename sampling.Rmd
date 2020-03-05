@@ -42,4 +42,11 @@ x %>%
         y = "Count") 
 ```
 
+```{r}
+# urn creation
+urn <- tibble(bean_ID = 1:10000,
+              color = c(rep("Red", 2000), rep("White", 8000)))
+```
+
+
 
